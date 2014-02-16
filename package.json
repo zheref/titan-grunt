@@ -6,12 +6,17 @@
   "scripts": {
     "test": "titangrunt"
   },
-  "peerDependencies": {
-    "grunt": "0.4.1",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "grunt": "0.4.2",
+    "grunt-create": "0.1.2",
     "grunt-contrib-copy": "0.4.1",
     "grunt-contrib-clean": "0.4.0",
     "grunt-contrib-concat": "0.3.0",
-    "grunt-extend-config": "0.9.1"
+    "grunt-extend-config": "0.9.1",
+    "chai": "*"
   },
   "repository": {
     "type": "git",
